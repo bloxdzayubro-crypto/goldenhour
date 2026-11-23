@@ -1,0 +1,152 @@
+.HotBarItem {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 244, 205, .50), rgba(255, 244, 205, 0) 55%), linear-gradient(180deg, #c9b07e 0%, #a98f5f 55%, #8d7449 100%) !important;
+border: .18rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #1a1208 !important;
+box-shadow: inset 2px 2px 3px rgba(60, 40, 10, .55), inset -2px -2px 3px rgba(255, 238, 190, .35), 0 2px 4px rgba(0, 0, 0, .55) !important;
+}
+.InvenItem {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 244, 205, .50), rgba(255, 244, 205, 0) 55%), linear-gradient(180deg, #c9b07e 0%, #a98f5f 55%, #8d7449 100%) !important;
+border: .18rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #1a1208 !important;
+box-shadow: inset 2px 2px 3px rgba(60, 40, 10, .55), inset -2px -2px 3px rgba(255, 238, 190, .35), 0 2px 4px rgba(0, 0, 0, .55) !important;
+}
+.Selected {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 255, 235, .75), rgba(255, 255, 235, 0) 58%), linear-gradient(180deg, #f6dc8a 0%, #e0b950 55%, #bf9330 100%) !important;
+border-image: linear-gradient(145deg, #ffffff, #ffe27a 30%, #e0a020 60%, #fff0a8) 1 !important;
+outline: 1px solid #fff6cc !important;
+box-shadow: inset 2px 2px 3px rgba(120, 80, 10, .35), inset -2px -2px 3px rgba(255, 255, 255, .55), 0 0 14px rgba(255, 214, 100, .9), 0 4px 8px rgba(0, 0, 0, .6) !important;
+}
+.SelectedItem {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 255, 235, .75), rgba(255, 255, 235, 0) 58%), linear-gradient(180deg, #f6dc8a 0%, #e0b950 55%, #bf9330 100%) !important;
+border-image: linear-gradient(145deg, #ffffff, #ffe27a 30%, #e0a020 60%, #fff0a8) 1 !important;
+outline: 1px solid #fff6cc !important;
+box-shadow: 0 0 14px rgba(255, 214, 100, .9), 0 4px 8px rgba(0, 0, 0, .6) !important;
+}
+.HotbarItemNumber {
+color: #fff !important;
+font-weight: 800 !important;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 3px rgba(0, 0, 0, .8) !important;
+}
+.SelectedItemName {
+color: #fff4cf !important;
+font-weight: 800 !important;
+letter-spacing: .02em !important;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 3px 6px rgba(0, 0, 0, .85) !important;
+}
+.BottomScreenStatBarWrapper {
+opacity: 1 !important;
+filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .6)) !important;
+}
+.BottomScreenStatBarBackground {
+background: linear-gradient(180deg, #120404, #2a0a0a 60%, #3a1010) !important;
+border: .2rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #0d0804 !important;
+box-shadow: inset 0 5px 10px rgba(0, 0, 0, .8), inset 0 -2px 0 rgba(255, 233, 163, .18) !important;
+}
+.HealthBar {
+background: linear-gradient(180deg, #ff8a7c 0%, #f04a40 22%, #d32a26 55%, #a31414 100%) !important;
+box-shadow: inset 0 3px 0 rgba(255, 255, 255, .5), inset 0 -.5rem .6rem rgba(50, 0, 0, .5), inset 2px 0 0 rgba(255, 255, 255, .25) !important;
+}
+.ShieldBar {
+background: linear-gradient(180deg, #fff6c4 0%, #ffd34f 25%, #e0a31b 60%, #a8730d 100%) !important;
+box-shadow: inset 0 3px 0 rgba(255, 255, 255, .6), inset 0 -.5rem .6rem rgba(80, 45, 0, .5), inset 2px 0 0 rgba(255, 255, 255, .35) !important;
+}
+.BottomScreenStatBarText {
+color: #fff !important;
+font-weight: 800 !important;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 3px rgba(0, 0, 0, .85) !important;
+}
+.AuraBar {
+border: .15rem solid #b8861f !important;
+background: #1b1209 !important;
+box-shadow: inset 0 3px 6px rgba(0, 0, 0, .7) !important;
+}
+.InvenLeftSide {
+background: repeating-linear-gradient(90deg, rgba(255, 255, 255, .03) 0, rgba(255, 255, 255, .03) 2px, rgba(0, 0, 0, .06) 2px, rgba(0, 0, 0, .06) 6px), radial-gradient(130% 90% at 50% 0%, rgba(255, 214, 120, .14), rgba(255, 214, 120, 0) 60%), linear-gradient(180deg, #4a371f 0%, #35261a 55%, #261a10 100%) !important;
+border: .22rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #0d0804 !important;
+box-shadow: inset 0 2px 0 rgba(255, 233, 163, .25), inset 0 -8px 18px rgba(0, 0, 0, .55), 0 8px 18px rgba(0, 0, 0, .65) !important;
+color: #fff4dc !important;
+}
+.InvenBodyRight {
+background: repeating-linear-gradient(90deg, rgba(255, 255, 255, .03) 0, rgba(255, 255, 255, .03) 2px, rgba(0, 0, 0, .06) 2px, rgba(0, 0, 0, .06) 6px), radial-gradient(130% 90% at 50% 0%, rgba(255, 214, 120, .14), rgba(255, 214, 120, 0) 60%), linear-gradient(180deg, #4a371f 0%, #35261a 55%, #261a10 100%) !important;
+border: .22rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #0d0804 !important;
+box-shadow: inset 0 2px 0 rgba(255, 233, 163, .25), inset 0 -8px 18px rgba(0, 0, 0, .55), 0 8px 18px rgba(0, 0, 0, .65) !important;
+color: #fff4dc !important;
+}
+.InvenHoveredItemInfo {
+background: linear-gradient(180deg, #4a371f 0%, #35261a 55%, #261a10 100%) !important;
+border: .22rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+box-shadow: inset 0 2px 0 rgba(255, 233, 163, .25), inset 0 -8px 18px rgba(0, 0, 0, .55), 0 8px 18px rgba(0, 0, 0, .65) !important;
+color: #fff4dc !important;
+}
+.InvenLeftSideHeader {
+color: #ffe9a8 !important;
+font-weight: 800 !important;
+text-shadow: 0 2px 3px rgba(0, 0, 0, .8) !important;
+letter-spacing: .03em !important;
+}
+.CreativeCategoryTab {
+background: linear-gradient(180deg, #c9b07e, #9a8052) !important;
+outline: 1px solid #1a1208 !important;
+box-shadow: inset 1px 1px 2px rgba(255, 240, 200, .5), inset -1px -1px 3px rgba(60, 40, 10, .5) !important;
+}
+.CraftingSearch {
+background: linear-gradient(180deg, #2a1f13, #3a2b1a) !important;
+color: #fff4dc !important;
+border: .15rem solid #b8861f !important;
+box-shadow: inset 0 3px 6px rgba(0, 0, 0, .6) !important;
+}
+.CreativeItemSlotsSearch {
+background: linear-gradient(180deg, #2a1f13, #3a2b1a) !important;
+color: #fff4dc !important;
+border: .15rem solid #b8861f !important;
+box-shadow: inset 0 3px 6px rgba(0, 0, 0, .6) !important;
+}
+.CreativeCategoryDropdownMenu {
+background: linear-gradient(180deg, #4a371f, #2c2014) !important;
+border: .15rem solid #b8861f !important;
+box-shadow: 0 8px 18px rgba(0, 0, 0, .65) !important;
+}
+.NewButton {
+box-shadow: inset 0 2px 0 rgba(255, 238, 190, .30), inset 0 -3px 6px rgba(0, 0, 0, .30), .2rem .3rem 0 rgba(0, 0, 0, .38) !important;
+}
+.MessageWrapper {
+background: linear-gradient(90deg, rgba(20, 12, 4, .72), rgba(20, 12, 4, .45)) !important;
+border-left: .2rem solid #d9a73a !important;
+text-shadow: 0 1px 2px #000 !important;
+}
+.LogoLoaderInner {
+opacity: 0 !important;
+}
+.LogoLoader {
+background: __FACE__ center / 78% 78% no-repeat !important;
+image-rendering: pixelated !important;
+}
+.LogoLoaderIsProgressBar {
+background: __FACE__ center / 100% 100% no-repeat !important;
+image-rendering: pixelated !important;
+border-radius: 50% !important;
+}
+.ButtonTopBorder {
+background: rgba(255, 255, 255, .34) !important;
+}
+.ButtonBottomBorder {
+background: rgba(0, 0, 0, .30) !important;
+}
+.BlueButton {
+background-color: #c28d2e !important;
+}
+.DarkBlueButton {
+background-color: #5d4527 !important;
+}
+.LogoLoaderLoadingBar {
+border-color: #ffd34f #7a5f2c #7a5f2c #7a5f2c !important;
+}

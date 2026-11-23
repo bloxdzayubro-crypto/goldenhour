@@ -1,0 +1,714 @@
+.AstroNebula1 { background: linear-gradient(180deg,transparent,rgba(92,74,48,.25) 25%,rgba(92,74,48,.5) 50%,rgba(92,74,48,.25) 75%,transparent) !important; }
+.AstroNebula2 { background: linear-gradient(180deg,transparent,rgba(92,74,48,.15) 30%,rgba(92,74,48,.35) 50%,rgba(92,74,48,.15) 70%,transparent) !important; }
+.AstroPackBackground { background: radial-gradient(ellipse at 40% 40%,#45351c 0,#2f2415 70%) !important; }
+.AstroPlanetRingedBlue { background: radial-gradient(circle at 40% 35%,#cd994b,#9e7a43 50%,#8c6d3f) !important; }
+.AstroPlanetSmallLav { background: radial-gradient(circle at 40% 35%,#baa380,#a28c6b 50%,#7d6e58) !important; }
+.AuraBar { background-color: #352e23 !important; }
+.AutorunTarget { background: rgba(41,35,27,.6) !important; }
+.AvailableGame { background-color: #715c3d !important; }
+.AvailableGameCCU { background-color: rgba(53,46,35,.4) !important; }
+.AvailableGameChip { background-color: rgba(53,46,35,.4) !important; }
+.AvailableGameEyebrow { background-color: rgba(113,92,61,.5) !important; }
+.AvailableGameText { background-color: rgba(113,92,61,.5) !important; }
+.BackButton { background-color: rgba(82,66,41,.85) !important; }
+.Baf2AreaBannerBand { background: radial-gradient(ellipse 60% 120% at center,rgba(var(--baf2-area-accent),.22),transparent 70%),rgba(53,46,35,.78) !important; }
+.Baf2BookProgressBar { background: #29231b !important; }
+.Baf2ColDiagramGhost { border: 2px dashed #e0af66 !important; }
+.Baf2ColHoldKnob { background: #be8127 !important; }
+.Baf2CoreBarHeld { background: rgba(224,175,102,.55) !important; }
+.Baf2CoreBody { background: linear-gradient(#352e23 30%,rgba(53,46,35,0)) top/100% 2.5rem no-repeat local,linear-gradient(rgba(53,46,35,0),#352e23 70%) bottom/100% 2.5rem no-repeat local,radial-gradient(farthest-side at 50% 0,rgba(0,0,0,.55),transparent) top/100% .9rem no-repeat scroll,radial-gradient(farthest-side at 50% 100%,rgba(0,0,0,.55),transparent) bottom/100% .9rem no-repeat scroll !important; }
+.Baf2CoreCharge { background: rgba(216,156,66,.12) !important; border: 1px solid rgba(226,180,112,.45) !important; }
+.Baf2CoreDepositButton { background: #e0af66 !important; }
+.Baf2DropComet { box-shadow: 0 0 .6rem rgba(225,178,107,.75) !important; }
+.Baf2DropSalvage { background: #4f4331 !important; }
+.Baf2FarmToggle { background-color: #5d503d !important; }
+.Baf2GearPill { background: rgba(53,46,35,.85) !important; }
+.Baf2IslandInput { background: #29231b !important; }
+.Baf2LookTarget { background: rgba(53,46,35,.85) !important; }
+.Baf2PaneAlloyKiln { border: 1rem solid #332d26 !important; }
+.Baf2PaneDeepDrill { background-color: #544632 !important; border: 1rem solid #30281b !important; }
+.Baf2PanePress { background-color: #6b5738 !important; border: 1rem solid #3e3220 !important; }
+.Baf2PaneShatterMill { background-color: #594f3f !important; border: 1rem solid #342d23 !important; }
+.Baf2PaneSkyTap { background-color: #5c4829 !important; border: 1rem solid #352916 !important; }
+.Baf2PaneVoltEngine { background-color: #5e4d32 !important; border: 1rem solid #362b1c !important; }
+.Baf2Panel { background: #352e23 !important; }
+.Baf2PanelHeader { background: #4f4331 !important; }
+.Baf2QuestCoreBar { background: #29231b !important; }
+.Baf2QuestProgressBar { background: #29231b !important; }
+.Baf2QuestToggle { background: rgba(79,67,49,.95) !important; }
+.Baf2QuestTrackerBody { background: rgba(53,46,35,.94) !important; }
+.Baf2RxConfirm { background: #5d503d !important; }
+.Baf2RxCore { background: #5d503d !important; }
+.Baf2RxKnob { background: #29231b !important; }
+.Baf2RxMapGrid { background: #29231b !important; }
+.Baf2RxStepper { background: #29231b !important; }
+.Baf2TermResort { background: #5d503d !important; }
+.Baf2TermSearch { background: #4f4331 !important; }
+.Baf2TermTile { background: #5d503d !important; }
+.Baf2Toast { background: rgba(53,46,35,.9) !important; }
+.Baf2UpgradeSlot { border: .15rem solid #e0af66 !important; box-shadow: 0 0 .6rem #e0af66 !important; }
+.Baf2WaterStripOpen { background-color: rgba(205,140,42,.15) !important; border: 1px solid #cd8c2a !important; }
+.Baf2WaterThis { border-left: 3px solid #cd8c2a !important; }
+.BagKey { background-color: #be8127 !important; box-shadow: inset 0 1.5px 0 #daa14c,0 3px 0 #29231b !important; }
+.Beaten { background: rgba(41,35,27,.35) !important; }
+.BlockHopper { border: .2rem solid #29231b !important; }
+.BlockHopperMessage { background-color: rgba(41,35,27,.6) !important; }
+.BloxdDropdownControl { background-color: #4f4331 !important; }
+.BloxdDropdownMenu { background-color: #5d503d !important; }
+.BloxdUpdatePopupOuterWrapper { background-color: #4f4331 !important; }
+.BlueButton { background: #4f4331 !important; }
+.BoardChip { background: #29231b !important; }
+.BoardChipTooltipIcon { background: #29231b !important; }
+.BoardChipTooltipMeter { background: #29231b !important; }
+.BoardDetail { background: #42392c !important; }
+.BoardDetailIcon { background: #29231b !important; }
+.BoardHeader { background: #715c3d !important; }
+.BoardStatus { background: #715c3d !important; }
+.BoardTile { background: #5d503d !important; }
+.BrowserTipPopupUrl { border: 1px solid #5d503d !important; }
+.CTAInner { background: linear-gradient(135deg,#4f4331,#715c3d) !important; }
+.CantCtrlCrouchIfNotFullscreenComp { background-color: #352e23 !important; }
+.Capturing { border: 1px solid #b88436 !important; }
+.CategoryGameListHeader { background-color: rgba(113,92,61,.4) !important; }
+.CategoryGameListSearchIcon { background-color: #4f4331 !important; }
+.Caught { border-color: rgba(221,168,89,.45) !important; }
+.Celebrate { background: linear-gradient(90deg,rgba(7,148,14,.55),rgba(53,46,35,.92) 60%) !important; }
+.CharCustomisationBodyHeader { background-color: #4f4331 !important; }
+.ChatInputWrapper { background-color: rgba(53,46,35,.6) !important; }
+.CloseGameInformationSticky { background-color: #4f4331 !important; }
+.CodeSelectionActions { background-color: #2e281f !important; }
+.CodexRedactedLine { background: #1c1914 !important; }
+.Complete { background-color: #d4922f !important; }
+.CondensedSectionFriendRequests { background-color: rgba(113,92,61,.4) !important; }
+.CondensedSectionOnlineFriends { background-color: rgba(113,92,61,.4) !important; }
+.ContainmentBoardOverlay { background: #4f4331 !important; }
+.ContainmentBoardPanel { background: #4f4331 !important; }
+.ControlBinding { background-color: #352e23 !important; }
+.ControlRow { background-color: #4f4331 !important; }
+.ControllerButtonRepresentation { background-color: #4f4331 !important; }
+.ControllerTesterBanner { background-color: #352e23 !important; }
+.ControllerTesterButton { background-color: #352e23 !important; }
+.ControllerTesterDot { background-color: #d4922f !important; }
+.ControllerTesterExitFill { background-color: #d4922f !important; }
+.ControllerTesterStickCircle { background-color: #352e23 !important; border: 2px solid #5d503d !important; }
+.ControlsTutorialDiv { background-color: rgba(79,67,49,.5) !important; }
+.CoordinateUI { background-color: rgba(53,46,35,.6) !important; }
+.CopyFriendLinkField { background-color: #352e23 !important; }
+.CosmeticPackAd { background-color: rgba(113,92,61,.4) !important; border-color: #715c3d !important; }
+.CosmeticPackAdLegendary { box-shadow: 0 0 16px rgba(107,91,67,.5),0 0 40px rgba(50,90,95,.3),inset 0 0 13px rgba(107,91,67,.15) !important; }
+.CosmeticPackAdOverlay { background: linear-gradient(-90deg,rgba(53,46,35,.9),transparent) !important; }
+.CosmeticPackGroup { background-color: rgba(113,92,61,.3) !important; border: .3rem solid #715c3d !important; }
+.CosmeticPackGroupLabel { background-color: rgba(79,67,49,.4) !important; }
+.CosmeticShopBanner { background: #5d503d !important; }
+.CosmeticShopDetail { background-color: #4f4331 !important; }
+.CosmeticShopDetailFooter { background-color: rgba(79,67,49,.2) !important; }
+.CosmeticShopDetailHeader { background-color: #715c3d !important; }
+.CosmeticShopDetailPreview3dCue { background-color: rgba(41,35,27,.6) !important; }
+.CosmeticShopPurchaseLabelPending { background-color: rgba(41,35,27,.3) !important; }
+.CosmeticShopSuperRankPromo { background: #5d503d !important; }
+.CraftingSearch { background-color: var(--InventorySlotColour,#715c3d) !important; }
+.CreateCustomLobby { background-color: #4f4331 !important; }
+.CreateCustomLobbySuccessOverlay { background-color: #352e23 !important; }
+.CreativeCategoryDropdownButton { background-color: var(--InventorySlotColour,#715c3d) !important; }
+.CreativeCategoryDropdownMenu { background-color: #352e23 !important; }
+.CreativeCategoryDropdownOption { background-color: var(--InventorySlotColour,#715c3d) !important; }
+.CreativeCategoryTab { background-color: var(--InventorySlotColour,#715c3d) !important; }
+.CreativeItemSlotsSearch { background-color: var(--InventorySlotColour,#715c3d) !important; }
+.CreativeScrollButton { background-color: #352e23 !important; }
+.CrosshairCode { background: #29231b !important; }
+.CrosshairFullScreenPanel { background: rgba(66,57,44,.95) !important; }
+.CrosshairPreset { background: #29231b !important; }
+.CubicBezierEasingEditorCanvas { border: 1px solid #5d503d !important; }
+.CustomGameChipCcu { background-color: #715c3d !important; }
+.CustomGameChipOwner { background-color: #715c3d !important; }
+.CustomGamePlacePanel { background-color: color-mix(in srgb,var(--custom-game-place-tint) 52%,#352e23) !important; }
+.CustomLobbyBlockButton { background-color: #715c3d !important; }
+.CustomLobbyBlockCategoryContainer { border: 2px solid #4f4331 !important; }
+.CustomLobbyBlockEditor { background-color: #352e23 !important; }
+.CustomLobbyChip { background-color: rgba(53,46,35,.6) !important; }
+.CustonLobbyBlockContainer { background-color: #4f4331 !important; }
+.Dark { background: rgba(41,35,27,.9) !important; }
+.DebugOverlay { background: rgba(41,35,27,.9) !important; }
+.Dialogue { background: rgba(82,66,41,.85) !important; }
+.DocsCallout { border-left: 3px solid #d4922f !important; }
+.DocsCodeBlock { background-color: #181511 !important; }
+.DocsMatchNav { background-color: #211e18 !important; }
+.DocsPanel { background-color: #2a251e !important; }
+.DocsQteStage { background: linear-gradient(rgba(41,35,27,.6),rgba(41,35,27,.6)),repeating-linear-gradient(45deg,#4f4331 0 12px,#524229 12px 24px) !important; }
+.DocsSearch { background-color: #2a251e !important; }
+.DocsSearchOverlay { background: rgba(41,35,27,.6) !important; }
+.DocsSidebar { background-color: #211e18 !important; border-right: 1px solid #352e23 !important; }
+.DocsSidebarResizeHandle { border-right: 1px solid #352e23 !important; }
+.DocsTextDialogOverlay { background: rgba(41,35,27,.6) !important; }
+.DocsTextDialogPreview { background: linear-gradient(rgba(41,35,27,.55),rgba(41,35,27,.55)),repeating-linear-gradient(45deg,#4f4331 0 12px,#524229 12px 24px) !important; }
+.DocsTextEditorPreview { background: linear-gradient(rgba(41,35,27,.55),rgba(41,35,27,.55)),repeating-linear-gradient(45deg,#4f4331 0 12px,#524229 12px 24px) !important; }
+.DocsTextPartPreview { background: linear-gradient(rgba(41,35,27,.55),rgba(41,35,27,.55)),repeating-linear-gradient(45deg,#4f4331 0 12px,#524229 12px 24px) !important; }
+.DocsVoiceStage { background: linear-gradient(rgba(41,35,27,.55),rgba(41,35,27,.55)),repeating-linear-gradient(45deg,#4f4331 0 12px,#524229 12px 24px) !important; }
+.DropStackFillTrack { background: rgba(41,35,27,.6) !important; border: 1px solid #4f4331 !important; }
+.EmoteLoadoutSummary { background-color: rgba(113,92,61,.3) !important; border: .3rem solid #715c3d !important; }
+.Empty { background: #29231b !important; }
+.EnterName { background-color: #715c3d !important; }
+.EverythingMenuBannerDiv { background-color: #352e23 !important; }
+.EverythingMenuBody { background-color: rgba(66,57,44,var(--everythingMenuBodyBackgroundOpacity)) !important; }
+.EverythingMenuTabActive { background-color: #5d503d !important; }
+.EverythingMenuTabList { background-color: #352e23 !important; }
+.FloatingActions { background-color: #715c3d !important; }
+.ForceRotatePrompt { background-color: rgba(53,46,35,.9) !important; }
+.FpsWrapperDiv { background-color: rgba(53,46,35,.6) !important; }
+.FrontlinePointFill { background: #d4922f !important; }
+.GameCategoryOptions { background-color: #4f4331 !important; }
+.GameChipUpdateCountdownBottom { background-color: rgba(53,46,35,.5) !important; }
+.GameEventPanelCard { background: linear-gradient(160deg,#372d1d,#352e23) !important; }
+.GameInformationHeaderTag { background-color: #352e23 !important; }
+.GameInformationTopBackgroundColor { background-color: #352e23 !important; }
+.GameInformationVariation { background-color: #715c3d !important; }
+.GameInformationVariationCCU { background-color: rgba(53,46,35,.5) !important; }
+.GamePageContentColumns { background-color: rgba(113,92,61,.4) !important; }
+.GameThumbnailDiscoverability { background: rgba(41,35,27,.75) !important; }
+.GameThumbnailPlaceholderInner { background-color: rgba(113,92,61,.4) !important; }
+.HalloweenCloud { background: radial-gradient(ellipse at center,rgba(163,135,92,.55) 0,rgba(163,135,92,.2) 50%,transparent 72%) !important; }
+.HalloweenMoon { box-shadow: 0 0 calc(var(--halloweenU)*8) calc(var(--halloweenU)*2) hsla(45,82%,80%,.45),0 0 calc(var(--halloweenU)*30) calc(var(--halloweenU)*10) rgba(132,108,72,.35) !important; }
+.HalloweenPackBackground { background: linear-gradient(0deg,rgba(255,122,60,.3),rgba(255,122,60,.08) 25%,transparent 50%),radial-gradient(ellipse at 78% 22%,rgba(132,108,72,.5) 0,transparent 55%),linear-gradient(180deg,#1b1409,#3e2f19 55%,#594629) !important; }
+.Here { box-shadow: inset 0 0 0 2px #edd0a5,0 0 .4rem rgba(237,208,165,.7) !important; }
+.HomeHeaderAccountButton { background-color: rgba(113,92,61,.45) !important; }
+.HomePageBackgroundContainer { background-color: #352e23 !important; }
+.HomePageInnerRight { background-color: #42392c !important; }
+.HomeSearchBackdrop { background-color: rgba(41,35,27,.6) !important; }
+.HomeSearchBody { border-top: 1px solid #29231b !important; }
+.HomeSearchPanel { background-color: #4f4331 !important; }
+.HomeTitleCcu { background-color: rgba(113,92,61,.45) !important; }
+.HotBarArrow { background-color: rgba(93,80,61,.72) !important; box-shadow: inset 0 1.5px 0 #897659,0 3px 0 #29231b !important; }
+.HotBarItem { background-color: var(--InventorySlotColour,#715c3d) !important; border: .25rem solid var(--InventoryPanelColour,#4f4331) !important; }
+.Hovered { background: #715c3d !important; }
+.HudFullScreenEditor { background-color: #4f4331 !important; }
+.HudFullScreenToolbar { background-color: rgba(82,66,41,.85) !important; }
+.HudLayoutPreviewBox { box-shadow: 0 6px 10px rgba(41,35,27,.6) !important; }
+.InGameHeader { background-color: rgba(53,46,35,.6) !important; }
+.InvenBodyRight { background-color: var(--InventoryPanelColour,#4f4331) !important; }
+.InvenHoveredItemInfo { background-color: #352e23 !important; }
+.InvenItem { border: .25rem solid var(--InventoryPanelColour,#4f4331) !important; }
+.InvenLeftSide { background-color: var(--InventoryPanelColour,#4f4331) !important; }
+.InvenLeftSideChestMoonstone { background-color: #c7b69b !important; }
+.InvenLeftSideMachineBench { border: 1rem solid #3f382e !important; }
+.InvenLeftSideToolBench { background-color: #7f6948 !important; border: 1rem solid #463925 !important; }
+.InventorySlotCursorHint { background-color: rgba(41,35,27,.6) !important; }
+.InviteLinkBox { background-color: #352e23 !important; }
+.InviteLinkInner { background-color: #715c3d !important; border-color: #32291c #967a51 #967a51 #32291c !important; }
+.ItemSlotBar { background: #29231b !important; }
+.JoinPartyHashtag { background-color: #4f4331 !important; }
+.JumpLockTarget { background: rgba(41,35,27,.6) !important; }
+.Kept { background-color: #be8127 !important; }
+.KeyboardButtonRepresentation { background-color: #4f4331 !important; }
+.LBTableTHead { background-color: #715c3d !important; }
+.LBTableTRYou { background-color: #b88436 !important; }
+.LBTableWrapper { background-color: #4f4331 !important; }
+.Label { background-color: #4f4331 !important; }
+.Large { background: rgba(45,36,21,.9) !important; border: 2px solid rgba(221,168,89,.5) !important; }
+.LeftGamePromptCardInFlow { background-color: #352e23 !important; }
+.LinksPopupLink { background: #5d503d !important; }
+.LiveStreamPromotion { background: #352e23 !important; }
+.LoadingOverlay { background-color: #352e23 !important; }
+.LoadingOverlayReady { background-color: rgba(41,35,27,.6) !important; }
+.LoadingProgressBar { background-color: #29231b !important; }
+.LobbyCollectionTitleTextBackground { background-image: linear-gradient(20deg,#a97b35 20%,#ffb914) !important; }
+.LobbyLeaderboardValueBg { background-color: rgba(113,92,61,.54) !important; }
+.LobbyManageBox { background-color: #4f4331 !important; }
+.LobbyManageChips { background-color: #42392c !important; }
+.LogoLoaderLoadingBar { border: var(--border-size) solid #be8127 !important; }
+.LongHoldSplitInfoUI { background-color: #352e23 !important; }
+.LongHoldSplitInfoUIInner { background-color: #be8127 !important; box-shadow: inset 0 .4rem 0 0 #d4922f,inset 0 -.4rem 0 0 #b88436 !important; }
+.LuckyGearRing { box-shadow: 0 0 0 .1rem #29231b,0 0 .6rem var(--ringColour) !important; }
+.ManageCard { background-color: #5d503d !important; }
+.ManageCardBody { background-color: #5d503d !important; }
+.ManageCardHead { border-bottom: 1px solid #352e23 !important; }
+.ManageCardIcon { background-color: #5d503d !important; }
+.ManageField { border-bottom: 1px solid rgba(113,92,61,.4) !important; }
+.MenuDiv { background-color: rgba(53,46,35,.8) !important; }
+.MenuHeader { background-color: rgba(113,92,61,.5) !important; }
+.MenuSideBar { background-color: #352e23 !important; }
+.MiddleScreenPopup { background-color: #4f4331 !important; }
+.Muted { background: #29231b !important; }
+.MyWorldButtonEyebrow { background-color: rgba(113,92,61,.5) !important; }
+.MyWorldButtonInner { background-color: #4f4331 !important; }
+.MyWorldButtonText { background-color: rgba(113,92,61,.5) !important; }
+.MyWorldsSectionTitleTextBackground { background-image: linear-gradient(20deg,#a97b35 20%,#ffb914) !important; }
+.NitroVideoSkip { background-color: rgba(41,35,27,.6) !important; }
+.NotchOverModel { border-bottom-color: #4f4331 !important; border-top-color: #4f4331 !important; }
+.NotificationRowUnread { background-color: rgba(113,92,61,.6) !important; }
+.NotificationToast { background-color: #4f4331 !important; }
+.NotificationTray { background-color: #4f4331 !important; }
+.NxGaugeTrack { background: #29231b !important; }
+.NxLane { background: #5d503d !important; }
+.NxStatusWhy { background: #deab5f !important; }
+.Open { border-color: #dda859 !important; box-shadow: 0 0 .8rem #dda859 !important; }
+.OtherInput { background-color: #4f4331 !important; }
+.OwnProfilePreviewCard { background-color: rgba(113,92,61,.4) !important; }
+.Owned { border-color: rgba(221,168,89,.6) !important; }
+.PadAttackLatchedHint { background: rgba(53,46,35,.85) !important; }
+.PadButtonHintBar { background: rgba(53,46,35,.85) !important; }
+.PadCaptureBox { background-color: #352e23 !important; border: 1px solid #b88436 !important; }
+.PadCaptureHoldFill { background-color: rgba(212,146,47,.45) !important; }
+.PadCaptureTimer { background-color: #d4922f !important; }
+.PadKeyboard { background: rgba(53,46,35,.94) !important; }
+.PadKeyboardKey { background: #715c3d !important; }
+.PadKeyboardKeyCommand { background: #4f4331 !important; }
+.PadKeyboardKeyPhrase { background: #715c3d !important; }
+.PadKeyboardPreview { background: #42392c !important; }
+.PadKeyboardPreviewSelection { background: rgba(190,129,39,.6) !important; }
+.PadSneakChip { background: rgba(53,46,35,.85) !important; }
+.Pagination { background-color: rgba(113,92,61,.4) !important; }
+.PanelPromptInputRow { background-color: #211e18 !important; }
+.PetUI { background-color: #4f4331 !important; }
+.PetUIFeedDrops { background-color: rgba(113,92,61,.4) !important; }
+.PetUIFood { background-color: rgba(113,92,61,.4) !important; }
+.PetUIFriendshipBar { background-color: #352e23 !important; }
+.PetUIFriendshipPoints { background-color: rgba(113,92,61,.4) !important; }
+.PetUIHungry { background-color: rgba(113,92,61,.4) !important; }
+.PetUIQuickStatsItem { background-color: rgba(113,92,61,.4) !important; }
+.PlayerNamePreview { background-color: rgba(113,92,61,.45) !important; }
+.PlayerNamePreviewLoader { background-color: rgba(113,92,61,.45) !important; }
+.PlayerProfileBackgroundContainer { background-color: #352e23 !important; }
+.PlayerProfileStat { background-color: #5d503d !important; }
+.PlotsJournalButton { background: rgba(82,66,41,.85) !important; }
+.PlotsJournalOverlay { background: rgba(41,35,27,.6) !important; }
+.PlotsPlacementCard { background: rgba(82,66,41,.85) !important; }
+.PlotsPlotBanner { background: rgba(82,66,41,.85) !important; }
+.PlotsPlotBannerSeal { background: #715c3d !important; }
+.PlotsProgressBar { background: rgba(113,92,61,.4) !important; }
+.PlotsStepCard { background: rgba(82,66,41,.85) !important; }
+.PluginCard { background-color: rgba(79,67,49,.5) !important; }
+.PremiumCurrencyBundle { background: radial-gradient(circle at 50% 52%,#d69739,#a97b35 45%,#89642d) !important; }
+.PremiumCurrencyBundleLabelPending { background-color: rgba(41,35,27,.3) !important; }
+.PremiumCurrencyBundlePricePending { background-color: rgba(41,35,27,.3) !important; }
+.PremiumCurrencyPurchaseBannerGift { background: rgba(212,146,47,.15) !important; border: .1rem solid #d4922f !important; }
+.PremiumCurrencyPurchaseCard { background: #5d503d !important; }
+.PremiumCurrencyPurchaseIcon { background: #715c3d !important; }
+.Pressed { border-color: #d4922f !important; }
+.ProfileCard { background-color: #715c3d !important; }
+.ProfileCardConfirm { background-color: #715c3d !important; }
+.ProfileCardConfirmOverlay { background-color: rgba(41,35,27,.6) !important; }
+.ProfileCardGrabber { background-color: #4f4331 !important; }
+.ProfileCardModelPanel { background-color: #4f4331 !important; }
+.ProfileCardScrim { background-color: rgba(41,35,27,.6) !important; }
+.ProfileCardStatusDot { background-color: #d4922f !important; }
+.ProfilePreview { background-color: rgba(113,92,61,.4) !important; }
+.ProfilePreviewStatusDot { background-color: #d4922f !important; border: .2em solid #715c3d !important; }
+.ProgressBarForeground { background-color: #b88436 !important; }
+.ProgressiveImagePlaceholder { background-color: #352e23 !important; }
+.PurchaseWelcomeText { background-color: rgba(113,92,61,.5) !important; }
+.QTEGravityBarProgress { background-color: #4f4331 !important; border: .15rem solid #4f4331 !important; }
+.QTEGravityBarTrack { background-color: #4f4331 !important; border: .25rem solid rgba(53,46,35,.6) !important; }
+.QTEPrecisionBarTrack { background-color: #4f4331 !important; border: .25rem solid #4f4331 !important; }
+.QTEProgressBar { background-color: #4f4331 !important; border: .25rem solid #4f4331 !important; }
+.QTERhythmClickDot { background-color: #5d503d !important; }
+.Ranked { background: #715c3d !important; }
+.RecentlyPlayedGame { background-color: #715c3d !important; border: 2px solid #715c3d !important; }
+.RecentlyPlayedGameTitle { background-color: rgba(113,92,61,.45) !important; }
+.RecentlyPlayedLobby { background-color: rgba(113,92,61,.5) !important; }
+.ReconnectingOverlayFrozen { background-color: rgba(41,35,27,.85) !important; }
+.ReplayFreecamVerticalButton { background-color: rgba(53,46,35,.6) !important; }
+.ReplayKeyframePopoverPreset { background: rgba(82,66,41,.85) !important; border: 1px solid #5d503d !important; }
+.ReplayTimelineDetailTrack { background: linear-gradient(180deg,rgba(113,92,61,.55),rgba(82,66,41,.95)) !important; border: 1px solid #5d503d !important; }
+.ReplayTimelineOverviewTrack { background: rgba(82,66,41,.85) !important; border: 1px solid #5d503d !important; }
+.ReplayVideoExportOptionCard { background-color: rgba(79,67,49,.5) !important; }
+.ReplayViewerBar { background: #352e23 !important; }
+.ReplayViewerCollapseTab { background: #352e23 !important; border-bottom: 2px solid #352e23 !important; }
+.ReplayViewerControlBox { background: rgba(82,66,41,.55) !important; border: 1px solid #5d503d !important; }
+.ReplayViewerPopover { background: rgba(41,35,27,.97) !important; }
+.ReportBackgroundScreen { background-color: rgba(41,35,27,.6) !important; }
+.ReportButton { background-color: #5d503d !important; }
+.ReportKeyInner { background-color: #4f4331 !important; }
+.ReportPanel { background-color: #4f4331 !important; }
+.RespawnMainContentInner { background-color: #352e23 !important; }
+.RewardBackground { background-color: rgba(41,35,27,.6) !important; }
+.RightSide { background-color: rgba(82,66,41,.85) !important; }
+.SchematicListContainer { background-color: #4f4331 !important; }
+.SchematicPageFooter { background-color: #4f4331 !important; }
+.SchematicPopupSchematicListContainer { border: 2px solid #4f4331 !important; }
+.SchematicUpload { border: 3px solid #4f4331 !important; }
+.SecondaryButton { background-color: rgba(41,35,27,.9) !important; }
+.SectionBody { border: 2px solid #4f4331 !important; }
+.SegmentedToggle { background-color: #5d503d !important; }
+.SegmentedToggleOptionSelected { background-color: #be8127 !important; }
+.SelectedHeaderCat { background-color: #715c3d !important; }
+.SelectedItem { background-color: var(--InventorySlotSelectedColour,#967a51) !important; }
+.SettingBox { background-color: #4f4331 !important; }
+.ShaderPackBrowseHeader { background-color: rgba(113,92,61,.4) !important; }
+.ShaderPackBrowseSearchIcon { background-color: #4f4331 !important; }
+.ShaderPackCardName { background-color: rgba(113,92,61,.5) !important; }
+.ShaderPackCardNotice { background-color: rgba(113,92,61,.5) !important; }
+.ShaderPackCardTile { background-color: #715c3d !important; }
+.ShaderPackCardUses { background-color: rgba(53,46,35,.4) !important; }
+.ShaderPackCompare { background-color: #715c3d !important; }
+.ShaderPackFeature { background-color: #5d503d !important; }
+.ShaderPackFullSize { background-color: rgba(41,35,27,.85) !important; }
+.ShaderPackOwnerPanel { background-color: rgba(113,92,61,.4) !important; }
+.ShaderPackPreviewMain { background-color: #715c3d !important; }
+.ShaderPackPublishSummary { background-color: rgba(113,92,61,.4) !important; }
+.ShaderPackStageButtonFace { background-color: rgba(41,35,27,.6) !important; }
+.ShaderPackViewOption { background-color: #715c3d !important; }
+.ShopCategoryDescription { background-color: #715c3d !important; }
+.ShopItem { background-color: #715c3d !important; }
+.ShopItemEnchantInfo { background-color: #352e23 !important; }
+.ShopItemNoInputCanBuy { background-color: #be8127 !important; }
+.ShopItemNoInputSelected { background-color: #be8127 !important; }
+.ShopKey { box-shadow: inset 0 1.5px 0 #ffd060,0 3px 0 #29231b !important; }
+.ShowBackground { background-color: rgba(41,35,27,.6) !important; }
+.Silver { background: #d5bd98 !important; border-color: #d5bd98 !important; box-shadow: 0 0 .3rem #d5bd98 !important; }
+.SkillProgressBar { background: #29231b !important; }
+.SkyblockAutograph { background: rgba(113,92,61,.4) !important; }
+.SkyblockAutographTotal { background: #4f4331 !important; }
+.SkyblockBossPickerBoss { background: radial-gradient(circle at 50% 60%,hsla(0,0%,100%,.08),rgba(41,35,27,.6) 70%) !important; }
+.SkyblockCompassTrack { background: linear-gradient(90deg,transparent,rgba(53,46,35,.8) 15%,rgba(53,46,35,.8) 85%,transparent) !important; }
+.SkyblockDailyRewardCard { background: rgba(53,46,35,.94) !important; }
+.SkyblockDailyRewardTile { background: rgba(79,67,49,.6) !important; }
+.SkyblockDialogueCharacters { background: #42392c !important; }
+.SkyblockDialogueConversation { background: #4f4331 !important; }
+.SkyblockDungeonDetail { background: #4f4331 !important; }
+.SkyblockDungeonRecord { background: rgba(41,35,27,.25) !important; }
+.SkyblockForgeAnvil { background: rgba(93,80,61,.5) !important; }
+.SkyblockForgeDetails { background: rgba(93,80,61,.5) !important; }
+.SkyblockForgePart { background: #29231b !important; }
+.SkyblockForgeSlot { background: rgba(93,80,61,.5) !important; }
+.SkyblockGlowMeter { background: rgba(41,35,27,.9) !important; }
+.SkyblockGlowMeterBurst { box-shadow: 0 0 1.2rem .4rem #3ce1c3,inset 0 0 1rem rgba(221,168,89,.9) !important; }
+.SkyblockGlowMeterFull { border-color: #dda859 !important; }
+.SkyblockGlowMeterLiquid { background: linear-gradient(90deg,#3ce1c3,#dda859) !important; }
+.SkyblockGlowMeterReady { background: rgba(41,35,27,.92) !important; }
+.SkyblockGlowMeterVial { background: rgba(82,66,41,.8) !important; border-bottom-color: #dda859 !important; border-right-color: #dda859 !important; border-top-color: #dda859 !important; }
+.SkyblockGlowtideChip { background: rgba(41,35,27,.9) !important; }
+.SkyblockHiddenWatersStrip { background: rgba(41,35,27,.6) !important; border: 1px solid rgba(221,168,89,.45) !important; }
+.SkyblockHushWaitLine { background: rgba(41,35,27,.75) !important; }
+.SkyblockHushWaitMoon { background: radial-gradient(circle at 35% 35%,#fff,#edd1a7 55%,rgba(60,225,195,.8)) !important; box-shadow: 0 0 1rem rgba(237,209,167,.9) !important; }
+.SkyblockHushWaitRipple { border: 2px solid rgba(237,209,167,.6) !important; }
+.SkyblockKeepersChairAlmanac { border-top: 1px solid rgba(221,168,89,.35) !important; }
+.SkyblockKeepersChairFish { background: rgba(41,35,27,.8) !important; }
+.SkyblockKeepersChairIsland { background: rgba(53,46,35,.9) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockKeepersChairTab { background: rgba(53,46,35,.9) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockLampLightCharm { background: rgba(113,92,61,.4) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockLampLightPill { background: linear-gradient(90deg,rgba(56,43,25,.92),rgba(202,146,62,.75)) !important; border: 2px solid rgba(221,168,89,.85) !important; box-shadow: 0 0 .8rem rgba(221,168,89,.55) !important; }
+.SkyblockLampLightSituation { background: rgba(53,46,35,.9) !important; }
+.SkyblockLampLightSituations { border: 2px solid rgba(221,168,89,.5) !important; }
+.SkyblockLampLightSwatch { box-shadow: 0 0 .6rem rgba(221,168,89,.7) !important; }
+.SkyblockLampLightSwitchTrack { background: rgba(113,92,61,.9) !important; border: 2px solid #4f4331 !important; border-color: #dda859 !important; box-shadow: 0 0 .6rem rgba(221,168,89,.6) !important; }
+.SkyblockLampLightTint { background: rgba(113,92,61,.4) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockLampLightTop { background: rgba(56,43,25,.85) !important; border: 2px solid rgba(221,168,89,.45) !important; }
+.SkyblockMailboxCard { background: rgba(82,66,41,.85) !important; }
+.SkyblockMapCanvas { background: #4f4331 !important; }
+.SkyblockMapFeedback { background: rgba(53,46,35,.95) !important; }
+.SkyblockMapPin { background: #352e23 !important; }
+.SkyblockMapTabs { background: #352e23 !important; }
+.SkyblockMapZoneThumbnail { background: #4f4331 !important; }
+.SkyblockMinimap { background: rgba(53,46,35,.9) !important; }
+.SkyblockMoon { background: radial-gradient(circle at 40% 35%,#fff,#edd0a5 55%,#e4b97a) !important; border: 1px solid rgba(237,208,165,.55) !important; box-shadow: 0 0 .5rem rgba(221,168,89,.8) !important; }
+.SkyblockPassageChip { background: rgba(80,62,35,.92) !important; border: 1px solid rgba(221,168,89,.55) !important; box-shadow: 0 0 .5rem rgba(221,168,89,.4) !important; }
+.SkyblockPassageFish { background: rgba(53,46,35,.85) !important; border: 2px solid rgba(221,168,89,.45) !important; border-color: rgba(113,92,61,.9) !important; }
+.SkyblockPassageFishIcon { background: rgba(41,35,27,.8) !important; border: 2px solid #dda859 !important; border-color: rgba(113,92,61,.9) !important; box-shadow: 0 0 .5rem rgba(221,168,89,.7) !important; }
+.SkyblockPassageNext { border-top: 1px solid rgba(221,168,89,.3) !important; }
+.SkyblockPortalTransitBand { background: rgba(53,46,35,.94) !important; }
+.SkyblockQuestDetail { background: #4f4331 !important; }
+.SkyblockQuestGraphLegendState { background: #4f4331 !important; }
+.SkyblockQuestGraphNode { background: #4f4331 !important; }
+.SkyblockQuestNotification { background: rgba(53,46,35,.94) !important; }
+.SkyblockQuestTracker { border-top: 1px solid #5d503d !important; }
+.SkyblockQuestWaypointDistance { background: rgba(53,46,35,.8) !important; }
+.SkyblockQuestWaypointLabel { background: rgba(53,46,35,.8) !important; }
+.SkyblockReachLogButton { background: radial-gradient(circle at 50% 40%,rgba(221,168,89,.35),rgba(41,35,27,.92) 70%) !important; border: 1px solid rgba(221,168,89,.7) !important; }
+.SkyblockReachLogCard { background: radial-gradient(circle at 50% 25%,rgba(68,53,30,.95),rgba(41,35,27,.95) 80%) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockReachLogDepths { background: radial-gradient(ellipse 90% 40% at 50% 105%,rgba(60,225,195,.16),transparent),radial-gradient(ellipse 60% 35% at 15% 0,rgba(221,168,89,.14),transparent) !important; }
+.SkyblockReachLogDivider { background: rgba(221,168,89,.4) !important; }
+.SkyblockReachLogFooter { border-top: 1px solid rgba(221,168,89,.3) !important; }
+.SkyblockReachLogPip { background: rgba(41,35,27,.9) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockReachLogReturner { background: rgba(41,35,27,.8) !important; }
+.SkyblockReachLogRibbon { background: rgba(221,168,89,.35) !important; }
+.SkyblockReachLogTab { background: rgba(53,46,35,.85) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockReachLogVisitorTag { background: rgba(221,168,89,.9) !important; }
+.SkyblockRegularsCard { background: radial-gradient(circle at 20% 15%,rgba(68,53,30,.95),rgba(41,35,27,.95) 80%) !important; border: 2px solid rgba(113,92,61,.9) !important; }
+.SkyblockRegularsFooter { border-top: 1px solid rgba(221,168,89,.3) !important; }
+.SkyblockRegularsStrip { background: rgba(41,35,27,.8) !important; border: 2px solid rgba(221,168,89,.5) !important; }
+.SkyblockRightHudCard { background: rgba(53,46,35,.94) !important; }
+.SkyblockSkillBenefit { background: #715c3d !important; }
+.SkyblockSkillDetail { background: #4f4331 !important; }
+.SkyblockSkillsHeader { background: #4f4331 !important; }
+.SkyblockSkillsHud { background: rgba(53,46,35,.94) !important; }
+.SkyblockSkillsPanel { background: linear-gradient(180deg,rgba(80,62,35,.98),#29231b) !important; border-color: rgba(221,168,89,.6) !important; box-shadow: 0 0 1.5rem rgba(221,168,89,.35),.2rem .25rem 0 rgba(0,0,0,.32) !important; }
+.SkyblockTideChartsChip { background: rgba(80,62,35,.92) !important; border: 1px solid rgba(221,168,89,.55) !important; box-shadow: 0 0 .5rem rgba(221,168,89,.4) !important; }
+.SkyblockTideChartsFooter { border-top: 1px solid rgba(221,168,89,.3) !important; }
+.SkyblockTideChartsTab { background: rgba(53,46,35,.85) !important; border: 2px solid rgba(221,168,89,.4) !important; }
+.SleepingOverlay { background-color: rgba(41,35,27,.85) !important; }
+.SmpCatalogueTile { background: rgba(113,92,61,.4) !important; }
+.SmpEmpty { background-color: #715c3d !important; }
+.SmpHeader { background: rgba(79,67,49,.9) !important; }
+.SmpIconButton { background: #5d503d !important; }
+.SmpInventorySlot { background: rgba(113,92,61,.4) !important; }
+.SmpInventorySlotOn { background: #be8127 !important; }
+.SmpListingCard { background: #715c3d !important; }
+.SmpPickerSlot { background: rgba(113,92,61,.4) !important; }
+.SmpPickerSlotOn { background: #be8127 !important; }
+.SmpProgress { background: #29231b !important; }
+.SmpRow { background: #715c3d !important; }
+.SmpSellBar { background: #4f4331 !important; }
+.SmpSkeletonButton { background-color: rgba(41,35,27,.3) !important; }
+.SmpSlot { background-color: rgba(41,35,27,.3) !important; }
+.SmpStatus { background: #29231b !important; }
+.SmpStatusHistory { background: #4f4331 !important; }
+.SmpStepButton { background: #5d503d !important; }
+.SmpStepper { background: #4f4331 !important; }
+.SmpTradeForm { background: #4f4331 !important; }
+.SocialBarDividerContainer { background-color: rgba(113,92,61,.4) !important; }
+.SocialBarFriendsPlaceholderRow { background-color: rgba(113,92,61,.4) !important; }
+.SocialBarInner { background-color: #352e23 !important; }
+.SocialBarWallet { background-color: rgba(113,92,61,.4) !important; }
+.SocialMenuBox { background-color: #4f4331 !important; }
+.StepCard { background-color: #4f4331 !important; }
+.Stopped { background: #e2b470 !important; }
+.StoreCharacterCard { background-color: #42392c !important; }
+.StoreCharacterCardRare { border-color: rgba(212,146,47,.6) !important; }
+.StoreCharacterName { background-color: #4f4331 !important; }
+.StoreCharacterScrim { background: linear-gradient(transparent,rgba(53,46,35,.92) 70%) !important; }
+.StoreCtaLabelPending { background-color: rgba(41,35,27,.3) !important; }
+.StoreDetailHeader { background-color: rgba(79,67,49,.35) !important; }
+.StorePackTileRare { border-color: rgba(212,146,47,.6) !important; }
+.StoreRecipientChip { background-color: rgba(113,92,61,.4) !important; border: .2rem solid #5d503d !important; }
+.StoreRecipientMe { background-color: rgba(113,92,61,.4) !important; border: .2rem solid #5d503d !important; }
+.StoreRecipientPopover { background-color: #352e23 !important; }
+.StoreRecipientSearch { background-color: #352e23 !important; border: .2rem solid #5d503d !important; }
+.StoreRecipientSearchError { background: #352e23 !important; }
+.StoreRecipientStrip { background-color: #42392c !important; border: var(--stripBorder) solid #5d503d !important; }
+.StoreTile { background-color: #42392c !important; }
+.StoreTileScrim { background: linear-gradient(180deg,transparent,rgba(53,46,35,.8) 45%,rgba(53,46,35,.96)) !important; }
+.StudioAiDataFacts { background-color: rgba(113,92,61,.4) !important; border-left: .3rem solid #deab5f !important; }
+.StudioAiJourneyStep { background-color: rgba(113,92,61,.4) !important; }
+.StudioAiMeasureFirst { background-color: rgba(113,92,61,.4) !important; }
+.StudioAiMeasureFirstInvite { border-left-color: #deab5f !important; }
+.StudioAiNextChange { background-color: rgba(113,92,61,.4) !important; }
+.StudioAiNextChangeCode { background-color: #4f4331 !important; }
+.StudioAiNextChangePeek { background-color: rgba(113,92,61,.4) !important; }
+.StudioAiSetupLines { background-color: #4f4331 !important; }
+.StudioAiStatChip { background-color: rgba(113,92,61,.4) !important; }
+.StudioAiTrackLine { background-color: rgba(113,92,61,.4) !important; }
+.StudioComparisonPickerOptionSelected { background-color: #715c3d !important; }
+.StudioComparisonPickerPanel { background-color: #5d503d !important; }
+.StudioEventValuesMessage { background-color: #5d503d !important; }
+.StudioGameBoost { background-color: #4f4331 !important; }
+.StudioGameBoostStat { background-color: #715c3d !important; }
+.StudioGameListStatusChip { background-color: #715c3d !important; }
+.StudioGamePageContent { background-color: #4f4331 !important; }
+.StudioGamePageHeader { background-color: #4f4331 !important; }
+.StudioGamePageLiveCcu { background-color: #715c3d !important; }
+.StudioGamePageStatusChip { background-color: #715c3d !important; }
+.StudioHeatmapExpandedFullscreen { background-color: #5d503d !important; }
+.StudioHeatmapMoreSelect { background-color: #5d503d !important; }
+.StudioHeatmapTimeAxisPoint { border: 2px solid #352e23 !important; }
+.StudioHeatmapTimeAxisPointIdle { background-color: #352e23 !important; }
+.StudioLayout { background: #352e23 !important; }
+.StudioLayoutRight { background: #42392c !important; }
+.StudioMetricCard { background-color: #5d503d !important; }
+.StudioStatsChart { background-color: #5d503d !important; }
+.StudioStatsChartTooltip { background-color: #715c3d !important; }
+.StudioTable { background-color: #5d503d !important; }
+.StudioTextLoading { background-color: #5d503d !important; }
+.SubTitle { background-color: #b88436 !important; }
+.SuperRankAd { background-color: #4f4331 !important; }
+.Task { background-color: #715c3d !important; }
+.TaskProgress { background-color: #29231b !important; }
+.Testing { outline: 2px solid #d4922f !important; }
+.TextFromServerProgressBar { border: 1px solid rgba(79,67,49,.4) !important; }
+.TextInput { background: #4f4331 !important; background-color: #4f4331 !important; }
+.ThumbnailBadgeMain { background: linear-gradient(125deg,#a97b35,#d69739) !important; }
+.ThumbnailGridItem { background-color: #715c3d !important; }
+.ThumbnailGridItemLabel { background-color: rgba(113,92,61,.5) !important; }
+.ThumbnailRejectionNotice { background-color: #4f4331 !important; }
+.ThumbnailRejectionNoticeItem { background-color: rgba(113,92,61,.3) !important; }
+.ThumbnailUploadDropzone { border: 3px solid #4f4331 !important; }
+.ThumbnailUploadPolicy { background-color: rgba(113,92,61,.35) !important; }
+.ThumbnailUploadSuccessOverlay { background-color: #4f4331 !important; }
+.TopRightTray { background-color: rgba(82,66,41,.85) !important; }
+.TopScreenCurrencyDiv { background-color: #715c3d !important; }
+.TouchInteractKey { background-color: rgba(93,80,61,.72) !important; box-shadow: inset 0 1.5px 0 #897659,0 3px 0 #29231b !important; }
+.TouchKey { background-color: rgba(93,80,61,.72) !important; box-shadow: inset 0 1.5px 0 #897659,0 3px 0 #29231b !important; }
+.TutorialCentreBackdrop { background-color: rgba(41,35,27,.6) !important; }
+.TutorialSpotlightBackdrop { background-color: rgba(41,35,27,.6) !important; }
+.UiItemIcon { background-color: rgba(93,80,61,.72) !important; box-shadow: inset 0 1.5px 0 #897659,0 3px 0 #29231b !important; }
+.UiRequestInner { background: linear-gradient(110deg,#4f4331,#4f4331 2rem,#715c3d 0,#715c3d 4rem,#4f4331 0,#4f4331) !important; background-color: #4f4331 !important; }
+.UiRequestOverlayLoading { background-color: rgba(79,67,49,.9) !important; }
+.UiRequestOverlaySuccess { background-color: rgba(79,67,49,.9) !important; }
+.Unknown { border-color: #5d503d !important; }
+.UnselectedHeaderCat { background-color: #715c3d !important; }
+.UpdateCountdownBanner { background-color: rgba(41,35,27,.6) !important; }
+.UpdateLog { background-color: #4f4331 !important; }
+.UpdateLogPopup { background: linear-gradient(125deg,#ffb914 25%,#9b39d5 0,#9b39d5 50%,#a97b35 0,#a97b35 75%,#e34f4f 0,#e34f4f) !important; }
+.UpdateLogPopupInner { background-color: #4f4331 !important; }
+.UpdateWaitingPage { background-color: #352e23 !important; }
+.UpdateWaitingProgress { background-color: #29231b !important; }
+.UpdateWaitingWhatsNew { background-color: #4f4331 !important; }
+.Violet { background: radial-gradient(circle,#dda859,transparent 70%) !important; }
+.WholeAppBackground { background-color: #352e23 !important; }
+.WorldPanelCoordinates { background-color: #2a251e !important; }
+.WorldPanelHeader { background-color: #211e18 !important; }
+.WorldPanelHint { background-color: rgba(41,35,27,.6) !important; }
+.WorldPanelWaiting { background-color: rgba(41,35,27,.6) !important; }
+.WorldSocialLink { background-color: #4f4331 !important; }
+.WorldSocialLinkRowMessage { background-color: rgba(113,92,61,.4) !important; }
+.WorldSocialLoadFailed { background-color: rgba(113,92,61,.4) !important; }
+.WorldSocialPopup { background-color: #4f4331 !important; }
+.WorldSocialTile { background-color: rgba(113,92,61,.4) !important; }
+.WorldSocialTileSelected { background-color: #715c3d !important; }
+.Y2kPackBackground { background: #af9c80 !important; }
+.YoutubeTileThumbnail { background-color: #715c3d !important; }
+.cold { background: #d89b41 !important; border-color: rgba(216,155,65,.6) !important; }
+.playerCrafted { background: linear-gradient(125deg,#a97b35,#d69739) !important; }
+.rangeslider { background: #29231b !important; }
+.ready { border-left-color: #e0af66 !important; }
+.HotBarItem {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 244, 205, .50), rgba(255, 244, 205, 0) 55%), linear-gradient(180deg, #c9b07e 0%, #a98f5f 55%, #8d7449 100%) !important;
+border: .18rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #1a1208 !important;
+box-shadow: inset 2px 2px 3px rgba(60, 40, 10, .55), inset -2px -2px 3px rgba(255, 238, 190, .35), 0 2px 4px rgba(0, 0, 0, .55) !important;
+}
+.InvenItem {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 244, 205, .50), rgba(255, 244, 205, 0) 55%), linear-gradient(180deg, #c9b07e 0%, #a98f5f 55%, #8d7449 100%) !important;
+border: .18rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #1a1208 !important;
+box-shadow: inset 2px 2px 3px rgba(60, 40, 10, .55), inset -2px -2px 3px rgba(255, 238, 190, .35), 0 2px 4px rgba(0, 0, 0, .55) !important;
+}
+.Selected {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 255, 235, .75), rgba(255, 255, 235, 0) 58%), linear-gradient(180deg, #f6dc8a 0%, #e0b950 55%, #bf9330 100%) !important;
+border-image: linear-gradient(145deg, #ffffff, #ffe27a 30%, #e0a020 60%, #fff0a8) 1 !important;
+outline: 1px solid #fff6cc !important;
+box-shadow: inset 2px 2px 3px rgba(120, 80, 10, .35), inset -2px -2px 3px rgba(255, 255, 255, .55), 0 0 14px rgba(255, 214, 100, .9), 0 4px 8px rgba(0, 0, 0, .6) !important;
+}
+.SelectedItem {
+background: radial-gradient(120% 120% at 30% 20%, rgba(255, 255, 235, .75), rgba(255, 255, 235, 0) 58%), linear-gradient(180deg, #f6dc8a 0%, #e0b950 55%, #bf9330 100%) !important;
+border-image: linear-gradient(145deg, #ffffff, #ffe27a 30%, #e0a020 60%, #fff0a8) 1 !important;
+outline: 1px solid #fff6cc !important;
+box-shadow: 0 0 14px rgba(255, 214, 100, .9), 0 4px 8px rgba(0, 0, 0, .6) !important;
+}
+.HotbarItemNumber {
+color: #fff !important;
+font-weight: 800 !important;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 3px rgba(0, 0, 0, .8) !important;
+}
+.SelectedItemName {
+color: #fff4cf !important;
+font-weight: 800 !important;
+letter-spacing: .02em !important;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 3px 6px rgba(0, 0, 0, .85) !important;
+}
+.BottomScreenStatBarWrapper {
+opacity: 1 !important;
+filter: drop-shadow(0 4px 5px rgba(0, 0, 0, .6)) !important;
+}
+.BottomScreenStatBarBackground {
+background: linear-gradient(180deg, #120404, #2a0a0a 60%, #3a1010) !important;
+border: .2rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #0d0804 !important;
+box-shadow: inset 0 5px 10px rgba(0, 0, 0, .8), inset 0 -2px 0 rgba(255, 233, 163, .18) !important;
+}
+.HealthBar {
+background: linear-gradient(180deg, #ff8a7c 0%, #f04a40 22%, #d32a26 55%, #a31414 100%) !important;
+box-shadow: inset 0 3px 0 rgba(255, 255, 255, .5), inset 0 -.5rem .6rem rgba(50, 0, 0, .5), inset 2px 0 0 rgba(255, 255, 255, .25) !important;
+}
+.ShieldBar {
+background: linear-gradient(180deg, #fff6c4 0%, #ffd34f 25%, #e0a31b 60%, #a8730d 100%) !important;
+box-shadow: inset 0 3px 0 rgba(255, 255, 255, .6), inset 0 -.5rem .6rem rgba(80, 45, 0, .5), inset 2px 0 0 rgba(255, 255, 255, .35) !important;
+}
+.BottomScreenStatBarText {
+color: #fff !important;
+font-weight: 800 !important;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 3px rgba(0, 0, 0, .85) !important;
+}
+.AuraBar {
+border: .15rem solid #b8861f !important;
+background: #1b1209 !important;
+box-shadow: inset 0 3px 6px rgba(0, 0, 0, .7) !important;
+}
+.InvenLeftSide {
+background: repeating-linear-gradient(90deg, rgba(255, 255, 255, .03) 0, rgba(255, 255, 255, .03) 2px, rgba(0, 0, 0, .06) 2px, rgba(0, 0, 0, .06) 6px), radial-gradient(130% 90% at 50% 0%, rgba(255, 214, 120, .14), rgba(255, 214, 120, 0) 60%), linear-gradient(180deg, #4a371f 0%, #35261a 55%, #261a10 100%) !important;
+border: .22rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #0d0804 !important;
+box-shadow: inset 0 2px 0 rgba(255, 233, 163, .25), inset 0 -8px 18px rgba(0, 0, 0, .55), 0 8px 18px rgba(0, 0, 0, .65) !important;
+color: #fff4dc !important;
+}
+.InvenBodyRight {
+background: repeating-linear-gradient(90deg, rgba(255, 255, 255, .03) 0, rgba(255, 255, 255, .03) 2px, rgba(0, 0, 0, .06) 2px, rgba(0, 0, 0, .06) 6px), radial-gradient(130% 90% at 50% 0%, rgba(255, 214, 120, .14), rgba(255, 214, 120, 0) 60%), linear-gradient(180deg, #4a371f 0%, #35261a 55%, #261a10 100%) !important;
+border: .22rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+outline: 1px solid #0d0804 !important;
+box-shadow: inset 0 2px 0 rgba(255, 233, 163, .25), inset 0 -8px 18px rgba(0, 0, 0, .55), 0 8px 18px rgba(0, 0, 0, .65) !important;
+color: #fff4dc !important;
+}
+.InvenHoveredItemInfo {
+background: linear-gradient(180deg, #4a371f 0%, #35261a 55%, #261a10 100%) !important;
+border: .22rem solid transparent !important;
+border-image: linear-gradient(145deg, #fff1b8 0%, #f0c453 22%, #b8861f 52%, #7a5410 72%, #e3b341 100%) 1 !important;
+box-shadow: inset 0 2px 0 rgba(255, 233, 163, .25), inset 0 -8px 18px rgba(0, 0, 0, .55), 0 8px 18px rgba(0, 0, 0, .65) !important;
+color: #fff4dc !important;
+}
+.InvenLeftSideHeader {
+color: #ffe9a8 !important;
+font-weight: 800 !important;
+text-shadow: 0 2px 3px rgba(0, 0, 0, .8) !important;
+letter-spacing: .03em !important;
+}
+.CreativeCategoryTab {
+background: linear-gradient(180deg, #c9b07e, #9a8052) !important;
+outline: 1px solid #1a1208 !important;
+box-shadow: inset 1px 1px 2px rgba(255, 240, 200, .5), inset -1px -1px 3px rgba(60, 40, 10, .5) !important;
+}
+.CraftingSearch {
+background: linear-gradient(180deg, #2a1f13, #3a2b1a) !important;
+color: #fff4dc !important;
+border: .15rem solid #b8861f !important;
+box-shadow: inset 0 3px 6px rgba(0, 0, 0, .6) !important;
+}
+.CreativeItemSlotsSearch {
+background: linear-gradient(180deg, #2a1f13, #3a2b1a) !important;
+color: #fff4dc !important;
+border: .15rem solid #b8861f !important;
+box-shadow: inset 0 3px 6px rgba(0, 0, 0, .6) !important;
+}
+.CreativeCategoryDropdownMenu {
+background: linear-gradient(180deg, #4a371f, #2c2014) !important;
+border: .15rem solid #b8861f !important;
+box-shadow: 0 8px 18px rgba(0, 0, 0, .65) !important;
+}
+.NewButton {
+box-shadow: inset 0 2px 0 rgba(255, 238, 190, .30), inset 0 -3px 6px rgba(0, 0, 0, .30), .2rem .3rem 0 rgba(0, 0, 0, .38) !important;
+}
+.MessageWrapper {
+background: linear-gradient(90deg, rgba(20, 12, 4, .72), rgba(20, 12, 4, .45)) !important;
+border-left: .2rem solid #d9a73a !important;
+text-shadow: 0 1px 2px #000 !important;
+}
+.LogoLoaderInner {
+opacity: 0 !important;
+}
+.LogoLoader {
+background: url("data:image/png,%89%50%4E%47%0D%0A%1A%0A%00%00%00%0D%49%48%44%52%00%00%00%80%00%00%00%80%08%02%00%00%00%4C%5C%F6%9C%00%00%01%A3%49%44%41%54%78%9C%ED%D8%21%4A%44%51%14%80%E1%37%32%6B%D0%05%8C%D9%24%36%C1%A0%60%55%70%01%32%5D%30%9B%4D%06%C1%EE%0A%04%93%D1%20%D8%4C%C3%64%93%2B%71%0D%37%3C%3E%D0%FF%CB%E7%71%2F%EF%E7%94%BB%38%DC%DF%9D%E2%EC%C0%B3%53%00%AF%0D%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%6C%39%FA%C1%DD%E9%D1%3C%37%F9%23%EE%DF%BF%86%E6%DB%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%5B%8E%BE%EF%9F%3F%BD%0E%CD%5F%9D%7C%0E%CD%AF%0F%1E%A7%39%3D%6F%6F%87%E6%5F%3E%8E%C7%0E%B8%B9%1C%1A%6F%03%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%6C%B9%5A%ED%CD%7A%C0%E6%E7%7A%68%7E%75%71%36%CD%69%F3%36%76%9F%69%FA%1E%9A%1E%FD%9F%6D%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%2D%B6%0F%6B%7D%87%7F%AD%0D%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%26%EB%17%43%6A%15%B7%25%2C%CF%D5%00%00%00%00%49%45%4E%44%AE%42%60%82") center / 78% 78% no-repeat !important;
+image-rendering: pixelated !important;
+}
+.LogoLoaderIsProgressBar {
+background: url("data:image/png,%89%50%4E%47%0D%0A%1A%0A%00%00%00%0D%49%48%44%52%00%00%00%80%00%00%00%80%08%02%00%00%00%4C%5C%F6%9C%00%00%01%A3%49%44%41%54%78%9C%ED%D8%21%4A%44%51%14%80%E1%37%32%6B%D0%05%8C%D9%24%36%C1%A0%60%55%70%01%32%5D%30%9B%4D%06%C1%EE%0A%04%93%D1%20%D8%4C%C3%64%93%2B%71%0D%37%3C%3E%D0%FF%CB%E7%71%2F%EF%E7%94%BB%38%DC%DF%9D%E2%EC%C0%B3%53%00%AF%0D%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%6C%39%FA%C1%DD%E9%D1%3C%37%F9%23%EE%DF%BF%86%E6%DB%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%5B%8E%BE%EF%9F%3F%BD%0E%CD%5F%9D%7C%0E%CD%AF%0F%1E%A7%39%3D%6F%6F%87%E6%5F%3E%8E%C7%0E%B8%B9%1C%1A%6F%03%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%6C%B9%5A%ED%CD%7A%C0%E6%E7%7A%68%7E%75%71%36%CD%69%F3%36%76%9F%69%FA%1E%9A%1E%FD%9F%6D%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%2D%B6%0F%6B%7D%87%7F%AD%0D%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%B0%02%60%05%C0%0A%80%15%00%2B%00%56%00%AC%00%58%01%26%EB%17%43%6A%15%B7%25%2C%CF%D5%00%00%00%00%49%45%4E%44%AE%42%60%82") center / 100% 100% no-repeat !important;
+image-rendering: pixelated !important;
+border-radius: 50% !important;
+}
+.ButtonTopBorder {
+background: rgba(255, 255, 255, .34) !important;
+}
+.ButtonBottomBorder {
+background: rgba(0, 0, 0, .30) !important;
+}
+.BlueButton {
+background-color: #c28d2e !important;
+}
+.DarkBlueButton {
+background-color: #5d4527 !important;
+}
+.LogoLoaderLoadingBar {
+border-color: #ffd34f #7a5f2c #7a5f2c #7a5f2c !important;
+}
