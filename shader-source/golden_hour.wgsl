@@ -27,6 +27,9 @@ const ORE_RAISE: f32 = 0.60;                         // 鉱石(色つき・明�
 const ORE_SHINE: f32 = 0.45;                         // 鉱石の宝石のような輝き(0.0 = なし)
 const ORE_GLOW: f32 = 0.10;                          // 鉱石の色の粒の、自分自身の発光(0.0 = なし)。ダイヤの水色などが、際立つ
 const METAL_SHEEN: f32 = 0.70;                       // 金属(鉄・銀・金など)の質感の強さ(0.0 = なし)。アイテム・防具・mob(ゴーレムなど)に効く
+const SHADOW_SOFT: f32 = 0.55;                       // 影のふちを、ぼかす度合い(0.0 = 鋭いまま、1.0 = ブロック 1 つぶんのぼかし)
+const SHADOW_FALLOFF: f32 = 1.7;                     // 大きいほど、影のふちが薄く、中心だけ濃い(1.0 = 一様)
+const SHADOW_FAR: f32 = 0.30;                        // 遠くの影を、どれだけ薄くするか
 const SHADOW_STRENGTH: f32 = 0.80;                   // 影の濃さ(1.0 = 標準どおり、0.0 = 影なし)
 const SUN_BOOST: f32 = 0.28;                         // 日向をさらに明るく(日向と影の差を強める。0.0 = なし)
 const SHAFT: f32 = 0.20;                             // 光の筋の強さ(0.0 = なし)
@@ -342,10 +345,18 @@ fn floatingLeaves(c: vec3f, light: BloxdLightIn, trees: f32, sv: f32, sky: f32) 
         let spin = t * 1.6 + phase;
         on = vec2f(cos(spin) * on.x - sin(spin) * on.y, sin(spin) * on.x + cos(spin) * on.y);
         let flip = max(abs(cos(t * 2.2 + phase * 2.3)), 0.25);
-        if (abs(on.x) < LEAF_BITS_SIZE * flip && abs(on.y) < LEAF_BITS_SIZE) {
-            let colour = leafBitColour(h3);
-            let lit = colour * (0.30 + 0.45 * sv) * (0.45 + 0.55 * sky) + colour * 0.10;
-            return mix(c, lit, saturate(LEAF_BITS));
+        // 葉の形: 長さ L、幅 W(ひらひらで伸び縮み)。両端が尖り、付け根のほうが少し太い。 中央に、明るい葉脈。
+        let leafL = LEAF_BITS_SIZE * 1.7;
+        let leafW = LEAF_BITS_SIZE * 0.95 * flip;
+        let ty = on.y / leafL;
+        if (abs(ty) < 1.0) {
+            let halfW = leafW * pow(1.0 - ty * ty, 0.8) * (1.0 - 0.25 * ty);
+            if (abs(on.x) < halfW) {
+                let rib = 1.0 - smoothstep(0.0, max(leafW * 0.14, 0.003), abs(on.x));
+                let colour = mix(leafBitColour(h3), vec3f(0.95, 0.90, 0.55), rib * 0.55);
+                let lit = colour * (0.30 + 0.45 * sv) * (0.45 + 0.55 * sky) + colour * 0.10;
+                return mix(c, lit, saturate(LEAF_BITS));
+            }
         }
     }
     return c;
@@ -441,7 +452,11 @@ fn shade(surface: BloxdSurface, light: BloxdLightIn, modelMix: f32) -> vec3f {
     let shading = bloxdShading(light);
     let directPart = light.directional * light.diffuse;
     let share = saturate(luma(directPart) / max(luma(shading), 0.001));
-    let shadowFull = bloxdShadow();
+    // 影のふち: 鋭い影と、ぼかした影(ブロックの影を、1 ブロックぶんぼかしたもの)を混ぜ、暗さを曲線で弱めて、ふちほど薄く、中心だけ濃くする。遠くは、さらに薄く。
+    let shadowHard = bloxdShadow();
+    let shadowSoft = bloxdAirShadow(1.0);
+    let penumbra = mix(shadowHard, shadowSoft, SHADOW_SOFT);
+    let shadowFull = 1.0 - pow(saturate(1.0 - penumbra), SHADOW_FALLOFF) * (1.0 - SHADOW_FAR * smoothstep(40.0, 110.0, eyeDist));
     let shadowBlocks = bloxdAirShadow(clamp(1.0 - 0.4 / max(eyeDist, 0.5), 0.0, 1.0));
     let blocksOnly = max(shadowFull, shadowBlocks);
     let shadowMix = mix(blocksOnly, shadowFull, PLAYER_SHADOW * (1.0 - modelMix));
@@ -569,9 +584,9 @@ fn shade(surface: BloxdSurface, light: BloxdLightIn, modelMix: f32) -> vec3f {
     let alb = surface.colour;
     let hi = max(alb.r, max(alb.g, alb.b));
     let lo = min(alb.r, min(alb.g, alb.b));
-    // 雪のブロックだけ: とても明るく、わずかに青い(B − R が 0.02〜0.075)。白い羊毛・コンクリート・石英(青みなし / 黄みあり)・月光石(青すぎる)は、除く。
-    let blueBias = alb.b - alb.r;
-    let snowy = smoothstep(0.84, 0.90, luma(alb)) * smoothstep(0.020, 0.035, blueBias) * (1.0 - smoothstep(0.070, 0.095, blueBias)) * (1.0 - smoothstep(0.06, 0.12, hi - lo)) * (1.0 - modelMix);
+    // 雪のブロックだけ: テクスチャの名前(snow.png・packed_snow.png)で見分ける。白い羊毛・コンクリート・石英などでは、降らない。
+    let isSnow = light.textureId == bloxdTextureIdSnow || light.textureId == bloxdTextureIdPackedSnow;
+    let snowy = select(0.0, 1.0, isSnow) * (1.0 - modelMix);
     return snowFlakes(withLeaves, light, snowy, sv, sky);
 }
 
